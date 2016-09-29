@@ -1,17 +1,8 @@
-import helpers from './helpers/helpers'
+import configureStore from './app/configureStore'
 
-/**
- * An awesome script
- */
 export default class {
-  constructor(name = 'Dear Coder', text = 'hi there') {
-    this.name = name
-    this.text = text
-  }
-  get message() {
-    return `${this.text} ${this.name}!`
-  }
-  set message(text) {
-    this.text = helpers.trim(text)
-  }
+    constructor() {
+        let dataStore = configureStore()
+        console.log(dataStore);
+    }
 }

@@ -179,7 +179,7 @@ rules:
   #                                                                         #
   ###########################################################################
 
-  indent: [2, 2]                 # Set a specific tab width
+  indent: [1, 4]                 # Set a specific tab width
   brace-style: 0                 # enforce one true brace style
   camelcase: 0                   # require camel case names
   comma-spacing: 2               # enforce spacing before and after comma
@@ -221,4 +221,3 @@ rules:
   spaced-line-comment: 0         # require or disallow a space immediately following
                    #    the // in a line comment
   wrap-regex: 0                  # require regex literals to be wrapped in parentheses
-
