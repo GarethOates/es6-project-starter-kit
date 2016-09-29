@@ -55,5 +55,11 @@
   "bugs": {
     "url": "https://github.com/GianlucaGuarini/es6-project-starter-kit/issues"
   },
-  "homepage": "https://github.com/GianlucaGuarini/es6-project-starter-kit"
+  "homepage": "https://github.com/GianlucaGuarini/es6-project-starter-kit",
+  "dependencies": {
+    "redux": "^3.6.0",
+    "redux-observable": "^0.12.0",
+    "riot": "^2.6.2",
+    "rxjs": "^5.0.0-beta.12"
+  }
 }
